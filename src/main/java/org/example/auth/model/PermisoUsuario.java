@@ -1,0 +1,21 @@
+package org.example.auth.model;
+
+
+public enum PermisoUsuario {
+
+    FACTURACION_EMITIR,
+
+    FACTURACION_CONSULTAR,
+
+    NOTA_VENTA_EMITIR,
+
+    CONSULTA_RUC,
+
+    CORRELATIVOS_CONFIGURAR,
+
+    USUARIOS_GESTIONAR,
+
+    EMPRESA_CONFIGURAR,
+
+    EMPRESA_API_KEY_ROTAR
+}

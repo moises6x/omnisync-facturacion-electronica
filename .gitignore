@@ -1,0 +1,110 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Kotlin ###
+.kotlin/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse / STS ###
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Gradle ###
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Logs ###
+*.log
+logs/
+log/
+
+### Variables de entorno / secretos ###
+.env
+.env.*
+!.env.example
+
+### Certificados y claves privadas ###
+*.p12
+*.pfx
+*.pem
+*.key
+*.jks
+*.keystore
+
+### Backups / dumps de base de datos ###
+*.sql
+*.dump
+*.bak
+*.backup
+
+### Archivos temporales ###
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+
+### Archivos comprimidos generados ###
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+### SUNAT - padrón masivo ###
+/padron_reducido_ruc/
+
+### Archivos locales de pruebas / evidencia ###
+/evidencias/
+/evidence/
+/tmp/
+/temp/
+
+### Cobertura de tests ###
+coverage/
+jacoco.exec
+site/jacoco/
+
+### Maven release ###
+pom.xml.releaseBackup
+release.properties
+
+### Spring Boot local ###
+application-local.properties
+application-local.yml
+application-local.yaml
+
+### Credenciales locales ###
+secrets/
+credentials/
+certificados/
+certificates/
